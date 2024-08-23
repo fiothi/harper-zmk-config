@@ -22,6 +22,8 @@
             #binding-cells = <0>;
             bindings = <&kp CAPS &kp LEFT_BRACE &kp CAPS>;
             label = "X_UKR";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         b_ukr: b_ukr {
@@ -29,6 +31,8 @@
             #binding-cells = <0>;
             bindings = <&kp CAPS &kp RIGHT_BRACE &kp CAPS>;
             label = "B_UKR";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         micro: micro {
