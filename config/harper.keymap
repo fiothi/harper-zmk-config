@@ -57,6 +57,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <58 59>;
+        };
+
+        l3 {
+            bindings = <&mo 3>;
+            key-positions = <55 58>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
